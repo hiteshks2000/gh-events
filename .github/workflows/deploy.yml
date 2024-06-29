@@ -8,8 +8,8 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: clusterstuck.eoqlcsc.mongodb.net
-      MONGODB_USERNAME: hiteshshastry
-      MONGODB_PASSWORD: W23jdQM2MTH9ETBR
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 3000
     environment: testing
     runs-on: ubuntu-latest
