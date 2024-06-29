@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: clusterstuck.eoqlcsc.mongodb.net/
+      MONGODB_CLUSTER_ADDRESS: clusterstuck.eoqlcsc.mongodb.net
       MONGODB_USERNAME: hiteshshastry
       MONGODB_PASSWORD: W23jdQM2MTH9ETBR
       PORT: 3000
